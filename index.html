@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!--HEADER-->
+ <header>
+    <nav>
+        <h1>Gabriel Leite Queiroz</h1>
+        <ul>
+            <a href="#sobre-mim"><li>Sobre mim</li></a>
+            <a href="#habilidades"><li>Habilidades</li></a>
+            <a href="#projetos"><li>Projetos</li></a>
+            <a href="#contato"><li>Contatos</li></a>
+        </ul>
+    </nav>
+ </header>
+ <!--FIM DA HEADER-->
+
+ <!--SOBRE MIM-->
+ <section id="sobre-mim">
+    <img src="images/WhatsApp Image 2024-10-07 at 21.14.12.jpeg" alt="">
+    <p>Meu nome é Gabriel, tenho 18 anos e estudo Análise e Desenvolvimento de Sistemas na Universidade Católica de Brasília. Sou fascinado por tecnologia e desenvolvimento de software, sempre buscando expandir meus conhecimentos em novas ferramentas e linguagens de programação. Almejo me tornar um desenvolvedor full-stack, colaborando em projetos que tragam soluções inovadoras e desafiadoras, além de estar continuamente acompanhando as inovações e mudanças no setor de TI</p>
+ </section>
+ <!--FIM DA SOBRE MIM-->
+
+ <!--HABILIDADES-->
+ <section id="habilidades">
+    <div class="container">
+        <h2>Habilidades</h2>
+        <div class="habilidades-conteudo">
+            <div class="habilidade">
+                <h3>Front-End</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="habilidade">
+                <h3>Back-End</h3>
+                <p>C, Java, MySQL</p>
+            </div>
+            <div class="habilidade">
+                <h3>Ferramentas</h3>
+                <p>Git, GitHub, VS Code</p>
+            </div>
+            <div class="habilidade">
+                <h3>Soft Skills</h3>
+                <p>Trabalho em equipe, Comunicação</p>
+            </div>
+        </div>
+    </div>
+</section>
+ <!--FIM HABILIDADES-->
+
+ <!--PROJETOS-->   
+ <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projeto">
+        <h3>Portifólio Pessoal</h3>
+        <p>Este projeto tem como objetivo criar uma aplicação de portfólio pessoal. Utiliza HTML, CSS e JavaScript.</p>
+        <a href="https://github.com/seuperfil/projeto1">Repositório GitHub</a>
+        <img src="images/Captura de tela 2024-10-07 225455.png" alt="a">
+    </div>
+</section>
+  <!--FIM DA PROJETOS-->   
+
+  <!--INICIO CONTATOS-->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form action="envia-email.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="links">
+        <a href="https://linkedin.com">LinkedIn</a>
+        <a href="https://github.com/gabrielqrzz">GitHub</a>
+    </div>
+</section>
+<!--FIM CONTATOS-->
+
+<!--RODAPÉ-->
+<footer>
+    <p>&copy; 2024 Gabriel. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+
+</html>
